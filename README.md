@@ -1,15 +1,26 @@
-# React Chat Application
+# Node.js & React.js Chat Application
 
-Live site - <https://nodejs-react-chat-app-frontend.herokuapp.com/>
+- Frontend:  https://nodejs-react-chat-app-frontend.herokuapp.com/
 
-## Client
+- Backend: https://reactjs-nodejs-chat-backend.herokuapp.com/
 
-Client folder is utilizing create-react-ap and socket.io-client. You must use Yarn Start to load the application.
+## Frontend UI/UX
 
-## Server
+- ScrollToBottom - for the Chat Window to be automatically scrolled down when new messages are received.
+- UIFX - FX Sound for each Message received by Other Users.
+- String-to-Color - Unique Color for each different user (as in Whatsapp).
+- React-Emoji - Supports Emojis in the Chat.
+- Avatars - https://ui-avatars.com/ API to generate Avatar of Initials (as in Google) for each new User.
+- RTL Support for messages in RTL languages.
 
-The server is powered by Nodejs and Express. To run the server, you will need to use NPM Start. For fast real-time chat messages, the chat application is running under Socket.io.
+## Backend
 
-Server has been deployed under Heroku.
+The Server is Powered by Nodejs and Express.
 
-## Thank You
+To run the server, you will need to use NPM Start. For fast real-time chat messages, the chat application is running under Socket.io.
+
+## Scalability
+
+Possibility to scale it to support more than one public room.
+
+## Enjoy

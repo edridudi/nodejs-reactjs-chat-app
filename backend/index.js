@@ -7,10 +7,10 @@ const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
 const router = require('./router');
 
 const pool = new Pool({
-  user: 'lubwhxhleswmry',
-  host: 'ec2-46-137-123-136.eu-west-1.compute.amazonaws.com',
-  database: 'dd3hvikmldav4u',
-  password: 'f3376b86309e4baba0218e40552afd486ea2927a31ef426457c41ba052c7be89',
+  user: 'username',
+  host: 'host',
+  database: 'db',
+  password: 'password',
   port: 5432,
 })
 
