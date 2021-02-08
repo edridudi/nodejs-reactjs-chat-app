@@ -1,0 +1,166 @@
+.messageBox {
+  border-radius: 8px;
+  padding: 6px 9px 8px 7px;
+  color: #000000f5;
+  display: inline-block;
+  max-width: 80%;
+  font-size: 13px;
+  z-index: 99;
+  box-shadow: rgba(0, 0, 0, 0.13) 0 1px 1px 0;
+}
+
+.bubbleTail {
+  color: #FFF;
+  right: 0;
+  position: relative;
+  top: 21px;
+  z-index: 100;
+  display: block;
+  width: 8px;
+  height: 13px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.bubbleTailOther {
+  color: #ffb094;
+  right: 0;
+  position: relative;
+  top: 18px;
+  z-index: 100;
+  display: block;
+  width: 8px;
+  height: 13px;
+}
+
+.messageText {
+  width: 100%;
+  float: left;
+  word-wrap: break-word;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+  text-align: start;
+  color: #353535;
+}
+
+.messageTextRTL {
+  width: 100%;
+  float: left;
+  word-wrap: break-word;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+  text-align: end;
+  color: #353535;
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica, serif;
+  color: #828282;
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+
+}
+
+.background {
+  background: #ffb094;
+}
+
+.backgroundYellow {
+  background: #fff5c4f2;
+}
+
+.backgroundLightBlue {
+  background: #e1f5feeb;
+}
+
+.backgroundLight {
+  background: #FFF;
+}
+
+.userName {
+  font-weight: 700;
+  font-size: 13px;
+  display: block;
+}
+
+.msgTimeStamp {
+  float: right;
+  margin: -3px -2px -5px 13px;
+  position: relative;
+  z-index: 10;
+  height: 15px;
+  font-size: 11px;
+  line-height: 21px;
+  color: #00000073;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.msgTimeStampRTL {
+  float: left;
+  margin: -3px 0 -5px 0;
+  position: relative;
+  z-index: 10;
+  height: 15px;
+  font-size: 11px;
+  line-height: 21px;
+  color: #00000073;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.otherMsgTimeStamp {
+  float: right;
+  margin: -3px -2px -5px 13px;
+  position: relative;
+  z-index: 10;
+  height: 15px;
+  font-size: 11px;
+  line-height: 21px;
+  color: #00000073;
+  white-space: nowrap;
+  display: inline-block;
+}

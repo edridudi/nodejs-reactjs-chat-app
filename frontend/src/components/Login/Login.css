@@ -1,0 +1,160 @@
+html, body {
+    font-family: 'Benton Sans','Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #0E4252;
+}
+
+.heading {
+    color: #656565;
+    margin-top: 0;
+}
+
+.inputContainer {
+    position:relative;
+    padding:0;
+    margin:0;
+}
+
+.submitButton {
+    color: white!important;
+    background-color: #f15a26!important;
+    border-radius: 2em!important;
+    height:44px!important;
+    cursor: pointer;
+}
+
+.submitButton.Mui-disabled {
+    background-color: #0000001f!important;
+    cursor: not-allowed;
+}
+
+.link {
+    text-decoration: none;
+}
+
+#input_img {
+    position: absolute;
+    bottom: 22px;
+    left: 16px;
+    width: 18px;
+    height: 18px;
+    opacity: 0.6;
+}
+
+input[type=text], select {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 2em;
+    box-sizing: border-box;
+    background-color: #FBF7F4;
+    font-size:14px;
+    height: 44px;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #f15a26;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    height: 44px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+input[type=submit]:hover {
+    background-color: #c64f27;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=text]::placeholder {
+    color: #c1c1c1;
+}
+
+#root {
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.joinLogo {
+    margin-top: -145px;
+    width: 200px;
+}
+
+.joinOuterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #FBF7F4;
+    background-size: 25%;
+}
+
+.joinInnerContainer {
+    background-color: #ffffff;
+    padding: 50px;
+    width: 20%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #CCC;
+    height: 320px;
+    min-width: 305px;
+}
+
+.joinInput {
+    border-radius: 0;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .joinOuterContainer {
+        height: 100%;
+    }
+
+    .joinInnerContainer {
+        width: 40%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .joinOuterContainer {
+        height: 100%;
+    }
+
+    .joinInnerContainer {
+        width: 60%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .joinOuterContainer {
+        height: 100%;
+    }
+
+    .joinInnerContainer {
+        width: 95%;
+    }
+}
+
+button:focus {
+    outline: 0;
+}

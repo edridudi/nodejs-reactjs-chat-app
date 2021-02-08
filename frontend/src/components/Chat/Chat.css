@@ -1,0 +1,122 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  padding: 50px;
+  background-color: lightgrey;
+  flex-flow: column;
+}
+
+.innerContainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+  height: 100%;
+  box-shadow: 5px 5px 20px #CCC;
+  border-radius: 2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  width: 70%;
+  border-radius: 0 2em 2em 0;
+}
+
+.infoBar {
+  align-items: center;
+  justify-content: space-between;
+  background: #f15a26;
+  height: 70px;
+  width: 100%;
+  border-radius: 0 2em 0 0;
+}
+
+.leftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: white;
+  background-size: 110px;
+  background-repeat: no-repeat;
+  background-position-y: -25px;
+  background-position-x: 0;
+  padding-left: 125px;
+  height: 60px;
+}
+
+.rightInnerContainer {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.form {
+  display: flex;
+  border-top: 2px solid #D3D3D3;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.messages {
+  overflow: auto;
+  flex: auto;
+  height: 100%;
+  background-size: 240px;
+  overflow-y: auto;
+}
+
+.messagesContainer {
+  height: 100%;
+  background-size: 240px;
+  overflow-y: auto;
+}
+
+.stickToBottomButton {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/f/f5/Chevron_down_font_awesome.svg) no-repeat;
+  background-size: 15px;
+  background-position-x: 3px;
+  background-position-y: 3px;
+}
+
+.sendButton {
+  padding: 6px;
+}
+
+@media (min-width: 0) and (max-width: 600px) {
+  .container {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .innerContainer {
+    width: 100%;
+  }
+
+  .outerContainer {
+    padding: 0;
+  }
+
+  .infoBar {
+    border-radius: 0;
+  }
+}

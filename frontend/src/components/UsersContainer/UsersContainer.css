@@ -1,0 +1,84 @@
+.usersContainer {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content: space-between;
+    background: white;
+    border-right: 1px solid #ccc;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    width: 30%;
+}
+
+.userTitle {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.menuButton {
+    padding-right: 5px;
+}
+
+.userAvatar {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+}
+
+.userAvatar32 {
+    padding-left: 20px;
+    padding-right: 10px;
+    height: 32px;
+}
+
+.userEntry {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1 1 100%;
+    letter-spacing: normal;
+    min-height: 48px;
+    outline: none;
+    position: relative;
+    text-decoration: none;
+    border-top: 1px solid #ccc;
+}
+
+.activeContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 13px;
+}
+
+.activeItem {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    height: 60px;
+    background-color: #f15a26;
+    border-top-left-radius: 2em;
+    color: #fff;
+}
+
+.activeContainer img {
+    padding-left: 10px;
+}
+
+.usersContainer h1 {
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) and (max-width: 1200px) {
+    .usersContainer {
+        display: none;
+    }
+}
+
+@media (min-width: 1440px) {
+    .usersContainer {
+        font-size: 20px;
+    }
+}
